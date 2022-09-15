@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Chewy&display=swap");
+body {
+  font-family: "Balsamiq Sans", cursive;
+  color: #ffffff;
+  background: linear-gradient(
+    179deg,
+    rgb(255, 129, 27) -27.5%,
+    rgb(245, 255, 56) 94.7%
+  );
+}
+
+h1 {
+  font-family: "Chewy", cursive;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Chewy", cursive;
+  font-size: 26px;
+  font-weight: 200;
+  margin: 10px 0 0 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+button {
+  background-color: #ffffff;
+  color: #f7a900;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: block;
+  margin: 15px auto;
+  padding: 10px 25px 10px 25px;
+  border: none;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 25px 0 0 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.highlight-h1 {
+  font-size: 60px;
+}
+
+.highlight-h2 {
+  font-size: 40px;
+}
+
+.main-content {
+  background-color: #f7a900;
+  max-width: 65%;
+  border: 1px solid #f4af00;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.image img {
+  float: right;
+  width: 40%;
+}
+
+.clear {
+  clear: both;
+}
+
+.social {
+  display: inline-block;
+  margin: 10px 15px 10px 0;
+  transition: all 200ms ease;
+}
+
+.social:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  font-size: 12px;
+  color: #939597;
+  text-align: center;
+  font-family: monospace;
+  margin: 35px 0 15px 0;
+}
+
+.footer a {
+  color: #6d576b;
+  transition: all 200ms ease;
+}
+
+.footer a:hover {
+  color: #c8c8c8;
+}
