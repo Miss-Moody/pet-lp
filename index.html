@@ -1,85 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Help homeless animals in Ukraine</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
-    <h1>
-      Don't buy <span class="highlight-h1">love</span>, <br />
-      <span class="highlight-h1">adopt</span> it !
-    </h1>
-    <div class="main-content">
-      <div class="image">
-        <img src="/images/paw.png" alt="Paw pets" />
-      </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Help homeless animals in Ukraine</title>
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+		<link rel="stylesheet" href="/style.css" />
+	</head>
+	<body>
+		<h1>
+			Don't buy <span class="highlight-h1">love</span>, <br />
+			<span class="highlight-h1">adopt</span> it !
+		</h1>
+		<div class="main-content">
+			<div class="image">
+				<img src="/images/paw.png" alt="Paw pets" />
+			</div>
 
-      <div class="text">
-        <p>
-          You can't buy happiness, it comes to you. No one can offer
-          unconditional love and companionship a pet can. When you adopt a dog
-          or cat, you are not only getting a wonderful life companion, but you
-          are also saving a life and giving an animal a loving home it deserves.
-        </p>
-        <p>
-          The war unleashed against Ukraine brought pain and suffering not only
-          to millions of people, but also to many animals. Some of them were
-          abandoned or lost, others have tragically lost their owners... Now
-          they are looking for pet parents, as well as other homeless animals
-          who have never had them.
-        </p>
-        <p>
-          Even if you are not ready to adopt a pet yet, your donation or any
-          other kind of support can save little creatures.
-        </p>
-      </div>
-      <div class="clear"></div>
-      <button>I want to help</button>
-      <hr />
-      <h2><em>they</em> <span class="highlight-h2">care:</span></h2>
-      <a class="social" href="https://www.facebook.com/ZooDozor" target="_blank"
-        ><img src="/images/fb.png" width="50" height="50" alt="Facebook"
-      /></a>
-      <a
-        class="social"
-        href="https://www.instagram.com/zoo_dozor_zt/"
-        target="_blank"
-        ><img src="/images/ig.png" width="50" height="50" alt="Instagram"
-      /></a>
-    </div>
+			<div class="text">
+				<p>
+					You can't buy happiness, it comes to you. No one can offer
+					unconditional love and companionship a pet can. When you adopt a dog
+					or cat, you are not only getting a wonderful life companion, but you
+					are also saving a life and giving an animal a loving home it deserves.
+				</p>
+				<p>
+					The war unleashed against Ukraine brought pain and suffering not only
+					to millions of people, but also to many animals. Some of them were
+					abandoned or lost, others have tragically lost their owners... Now
+					they are looking for pet parents, as well as other homeless animals
+					who have never had them.
+				</p>
+				<p>
+					Even if you are not ready to adopt a pet yet, your donation or any
+					other kind of support can save little creatures.
+				</p>
+			</div>
+			<div class="clear"></div>
+			<button>I want to help</button>
+			<hr />
+			<h2><em>they</em> <span class="highlight-h2">care:</span></h2>
+			<a class="social" href="https://www.facebook.com/ZooDozor" target="_blank"
+				><img src="/images/fb.png" width="50" height="50" alt="Facebook"
+			/></a>
+			<a
+				class="social"
+				href="https://www.instagram.com/zoo_dozor_zt/"
+				target="_blank"
+				><img src="/images/ig.png" width="50" height="50" alt="Instagram"
+			/></a>
+		</div>
 
-    <p class="footer">
-      This page was built by
-      <a href="https://www.linkedin.com/in/olena-k-97ab18162/" target="_blank"
-        >Olena Kravchuk</a
-      >
-      as a training project for <strong>SheCodes</strong>👩‍💻
-    </p>
+		<p class="footer">
+			Coded by
+			<a href="https://www.linkedin.com/in/olena-k-97ab18162/" target="_blank"
+				>Olena Kravchuk</a
+			>
+		</p>
 
-    <script>
-      function updateText(newText) {
-        let text = document.querySelector(".main-content");
-        text.innerHTML = newText;
-      }
-      function wantHelp() {
-        let answer = prompt(
-          "If you are ready to support Ukrainian animal rescue group, press OK. If you have misclicked and don't want to help, press Cancel."
-        );
+		<script>
+			function updateText(newText) {
+				let text = document.querySelector(".main-content");
+				text.innerHTML = newText;
+			}
+			function wantHelp() {
+				let answer = prompt(
+					"If you are ready to support Ukrainian animal rescue group, press OK. If you have misclicked and don't want to help, press Cancel."
+				);
 
-        if (answer === null) {
-          alert("☹️ Please come back, if you change your mind!");
-        } else {
-          updateText(
-            `<br />😄Great! <br /><br /> Please visit our pages to find more information: <br /><br /><strong>Facebook:</strong> https://www.facebook.com/ZooDozor<br /><br /><strong>Instagram:</strong> https://www.instagram.com/zoo_dozor_zt/<br /><br /><br /><br />`
-          );
-        }
-      }
-      let applyButton = document.querySelector("button");
-      applyButton.addEventListener("click", wantHelp);
-    </script>
-  </body>
+				if (answer === null) {
+					alert("☹️ Please come back, if you change your mind!");
+				} else {
+					updateText(
+						`<br />😄Great! <br /><br /> Please visit our pages to find more information: <br /><br /><strong>Facebook:</strong> https://www.facebook.com/ZooDozor<br /><br /><strong>Instagram:</strong> https://www.instagram.com/zoo_dozor_zt/<br /><br /><br /><br />`
+					);
+				}
+			}
+			let applyButton = document.querySelector("button");
+			applyButton.addEventListener("click", wantHelp);
+		</script>
+	</body>
 </html>
